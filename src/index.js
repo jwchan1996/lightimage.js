@@ -1,3 +1,5 @@
 import Lightimage from './lightimage'
 
-new Lightimage('.content').init()
+new Lightimage('#app').init({
+  cursor: 'zoom-in'
+})
