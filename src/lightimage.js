@@ -57,4 +57,6 @@ class Lightimage {
   }
 }
 
+window.Lightimage = Lightimage
+
 export default Lightimage

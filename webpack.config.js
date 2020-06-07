@@ -1,11 +1,12 @@
 
 const path = require('path')
 
-module.exports = {
+const development = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    libraryTarget: 'umd'
   },
   mode: 'development',
   devServer:{
@@ -13,3 +14,15 @@ module.exports = {
     inline: true
   }
 }
+
+const production = {
+  entry: './src/lightimage.js',
+  output: {
+    filename: 'lightimage.min.js',
+    path: path.resolve(__dirname, 'dist'),
+    libraryTarget: 'umd'
+  },
+  mode: 'production'
+}
+
+module.exports = process.env.NODE_ENV === 'production' ? production : development
