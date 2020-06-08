@@ -8,7 +8,8 @@
 
 ## Example
 
-[Demo Page](https://jwchan1996.github.io/lightimage.js)
+[Demo Page](https://jwchan1996.github.io/lightimage.js)  
+[PPAP](http://ppap.live)
 
 ## Intro
 
