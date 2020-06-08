@@ -1,12 +1,9 @@
 class Lightimage {
-  //构造函数
   constructor(selector){
     this.selector = selector
   }
-
-  //初始化函数
+  
   init(params = {
-    //鼠标悬浮样式
     cursor: ''
   }){
     const lightimageDiv = document.createElement('div')
@@ -46,9 +43,7 @@ class Lightimage {
 
     const imgs = document.querySelector(this.selector).querySelectorAll('img')
     for(let i=0; i<imgs.length; i++){
-      //鼠标悬浮样式
       imgs[i].style.cursor = params.cursor
-      //监听图片点击事件
       imgs[i].onclick = e => {
         lightimageDiv.style.display = 'block'
         lightimageImg.setAttribute('src', e.currentTarget.src)
