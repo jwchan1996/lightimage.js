@@ -1,6 +1,6 @@
 {
   "name": "lightimage",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "A lightweight image view plugin",
   "main": "/dist/lightimage.min.js",
   "scripts": {
@@ -11,8 +11,11 @@
   "keywords": [
     "lightimage",
     "image viewer",
+    "image-viewer",
     "picture viewer",
+    "picture-viewer",
     "photo viewer",
+    "photo-viewer",
     "image",
     "zoom in",
     "image view",
