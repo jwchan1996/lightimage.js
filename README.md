@@ -13,7 +13,7 @@
 
 ## Intro
 
-We can bind an element in the `Lightimage` object, and all children of the current element like `<img/>` can be viewed.
+we can bind an element in the `Lightimage` object, and all children of the current element like `<img/>` can be viewed.
 
 ```html
 <div id="app">
@@ -26,12 +26,12 @@ We can bind an element in the `Lightimage` object, and all children of the curre
 </div>
 ```
 
-Bind the element of `#app`, we can scale view all children of `#app` like `<img/>`
+bind the element of `#app`, we can scale view all children of `#app` like `<img/>`
 ```javascript
 new Lightimage('#app').init()
 ```
 
-Bind the element of `.content`, we can scale view all children of `.content` like `<img/>`
+bind the element of `.content`, we can scale view all children of `.content` like `<img/>`
 ```javascript
 new Lightimage('.content').init()
 ```
@@ -64,6 +64,35 @@ yarn add lightimage
 import Lightimage from 'lightimage'
 
 new Lightimage('#app').init()
+```
+
+## Attributes
+
+Attribute | Description | Type | Default
+---|---|---|---|---
+cursor | mouse style of hover image | string | zoom-in
+showAnimationDuration | transition time of show image | string | 
+maskLayerBgColor | background color of mask layer | string |rgba(0, 0, 0, 0.8)
+showCloseBtn | whether to show the close button | boolean | false
+closeBtnHeight | the close button height | number | 48
+closeBtnWidth | the close button width | number | 48
+closeBtnColor | the close button color | string | #9C9C9C
+closeBtnBgColor | the close button background color | string | rgba(0, 0, 0, 0.2)
+
+we can custom params like this :
+
+```javascript
+new Lightimage('#app').init({
+  cursor: 'zoom-in',
+  showAnimationDuration: '0.8s',
+  maskLayerBindClose: true,
+  maskLayerBgColor: 'rgba(0, 0, 0, 0.9)',
+  showCloseBtn: true, 
+  closeBtnHeight: 48,
+  closeBtnWidth: 48,
+  closeBtnColor: '#9c9c9c',
+  closeBtnBgColor: 'rgba(0, 0, 0, 0)'
+})
 ```
 
 ## License
