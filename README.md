@@ -69,7 +69,7 @@ new Lightimage('#app').init()
 ## Attributes
 
 Attribute | Description | Type | Default
----|---|---|---|---
+---|---|---|---
 cursor | mouse style of hover image | string | zoom-in
 showAnimationDuration | transition time of show image | string | 
 maskLayerBgColor | background color of mask layer | string |rgba(0, 0, 0, 0.8)
