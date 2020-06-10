@@ -41,7 +41,7 @@ new Lightimage('.content').init()
 #### CDN
 
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/jwchan1996/lightimage.js/dist/lightimage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightimage/dist/lightimage.min.js"></script>
 <script type="text/javascript">
   new Lightimage('#app').init()
 </script>
