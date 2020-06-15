@@ -22,7 +22,18 @@ const production = {
     path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd'
   },
-  mode: 'production'
+  mode: 'production',
+  module: {  
+    rules: [
+      {
+        test: /\.js$/,
+        use: {
+            loader: 'babel-loader'
+        },
+        exclude: '/node_modules/'
+      }
+    ] 
+  }
 }
 
 module.exports = process.env.NODE_ENV === 'production' ? production : development

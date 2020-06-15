@@ -36,6 +36,11 @@ bind the element of `.content`, we can scale view all children of `.content` lik
 new Lightimage('.content').init()
 ```
 
+## Browser Support
+| <img src="http://i.imgur.com/NjIVmRO.png" style="width:46px;height:46px" alt="Chrome logo"> | <img src="http://i.imgur.com/o1m5RcQ.png" style="width:48px;height:48px" alt="Firefox logo"> | <img src="http://i.imgur.com/0R5whqc.png" style="width:48px;height:48px" alt="Internet Explorer logo"> | <img src="http://i.imgur.com/kQ1e7Mk.png" style="width:42px;height:42px" alt="Edge logo"> | <img src="http://i.imgur.com/FSJB8BL.png" style="width:48px;height:48px" alt="Opera logo"> | <img src="http://i.imgur.com/yLwF24I.png" style="width:48px;height:48px" alt="Safari logo"> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 38+ ✔️ | 43+ ✔️| 10+ ✔️| 14+ ✔️| 32+ ✔️| 8+ ✔️|
+
 ## Install
 
 #### CDN

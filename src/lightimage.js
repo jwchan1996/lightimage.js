@@ -31,6 +31,7 @@ class Lightimage {
         height: 100%;
         width: 100%;
         display: flex;
+        align-items: center;
         overflow: auto;
       }
       .lightimage-img {
@@ -131,7 +132,12 @@ class Lightimage {
         lightimageImg.style.cursor = 'zoom-in'
         lightimageImg.style.maxHeight = '100%'
         lightimageClose.style.display = 'inline-block'
-        event.stopPropagation()
+        //阻止事件冒泡
+        if(event && event.stopPropagation){
+          event.stopPropagation()
+        }else{
+          window.event.cancelBubble = true
+        }
         return false
       }
       
@@ -140,7 +146,12 @@ class Lightimage {
         imgClickFlag = false
         lightimageImg.style.cursor = ''
         lightimageClose.style.display = 'inline-block'
-        event.stopPropagation()
+        //阻止事件冒泡
+        if(event && event.stopPropagation){
+          event.stopPropagation()
+        }else{
+          window.event.cancelBubble = true
+        }
         return false
       }
 
@@ -151,11 +162,15 @@ class Lightimage {
       lightimageImg.style.cursor = 'zoom-out'
       lightimageImg.style.maxHeight = ''
       lightimageClose.style.display = 'none'
-    
       //放大到1.5倍宽度
       lightimageImg.style.width = newWidth
       lightimageImg.style.height = newHeight
-      event.stopPropagation()
+      //阻止事件冒泡
+      if(event && event.stopPropagation){
+        event.stopPropagation()
+      }else{
+        window.event.cancelBubble = true
+      }
       return false
     }
 
