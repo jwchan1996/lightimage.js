@@ -18,3 +18,4 @@ index.html
 docs/
 src/index.js
 webpack.config.js
+babel.config.js
