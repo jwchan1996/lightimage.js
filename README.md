@@ -8,8 +8,8 @@
 
 ## Example
 
-[Demo Page](https://jwchan1996.github.io/lightimage.js)  
-[PPAP](http://ppap.live)
+[Demo Page](https://jwchan1996.github.io/lightimage.js/)  
+[PPAP](http://ppap.live/)
 
 ## Intro
 
