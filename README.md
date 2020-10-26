@@ -1,4 +1,4 @@
-<p align="center"><img src="https://files.catbox.moe/kf4ffw.png" width="500" alt="lightimage logo"></p>
+<p align="center"><img src="https://i.loli.net/2020/10/26/fDHSnhZ3NT2lrvx.png" width="500" alt="lightimage logo"></p>
 <p align="center">🌈 A lightweight image view plugin</p>
 <p align="center">
 <a href="https://npmjs.com/package/lightimage"><img src="https://img.shields.io/npm/v/lightimage" alt="npm-v"></a>
@@ -17,11 +17,13 @@ we can bind an element in the `Lightimage` object, and all children of the curre
 
 ```html
 <div id="app">
-  <img src="https://catbox.moe/pictures/qts/1512072270390.png">
+  <img src="https://i.loli.net/2020/10/26/HnegmF9uy6Nt7So.png" style="width: 250px;" alt="">
+  <img src="https://i.loli.net/2020/10/26/OMrAoaZmc7hn43k.png" style="width: 266px;" alt="">
+  <img src="https://i.loli.net/2020/10/26/zeoMxD6Ak75Qy8h.png" style="width: 250px;" alt="">
   <div class="content">
-    <img src="https://files.catbox.moe/jmai6s.png">
-    <img src="https://files.catbox.moe/uh4owu.jpg">
-    <img src="https://files.catbox.moe/bdo5nr.jpg">
+    <img src="https://i.loli.net/2020/10/26/TxPSiCqUX1sLmly.png" style="height: 266px;" alt="">
+    <img src="https://i.loli.net/2020/10/26/OzQPweNoFBuv3bl.jpg" style="width: 266px;" alt="">
+    <img src="https://i.loli.net/2020/10/26/bUvmgckjsAiloFh.png" style="width: 266px;" alt="">
   </div>
 </div>
 ```
